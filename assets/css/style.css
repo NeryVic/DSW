@@ -3,10 +3,18 @@
 
 @font-face {
     font-family: 'diamond';
-    src: url('../fonts/Montreal\ Diamond.otf');
-    font-weight: 500 800;
+    src: url('../fonts/Montreal%20Diamond.otf') format('opentype');
+    font-weight: 500;
     font-style: normal;
   }
+
+  @font-face {
+    font-family: 'catalina';
+    src: url('../fonts/Santa%20Catalina1.otf') format('opentype'); /* Se usa %20 para el espacio */
+    font-weight: 500;
+    font-style: normal;
+  }
+  
 
 /* VARIABLES */
 :root {
@@ -29,6 +37,11 @@ body {
 
 .font {
     font-family: "diamond", sans-serif;
+}
+
+.fu-logo {
+    font-family: "catalina", sans-serif;
+    
 }
 
 h1, h2, h3,h4, h5, h6,
